@@ -5,7 +5,7 @@ using Microsoft.Playwright.NUnit;
 namespace CodeGenPlaywright;
 
 [TestFixture]
-public class LoginTests : PageTest
+public class AELoginTests : PageTest
 {
     private IConfiguration? _testSettings;
     
