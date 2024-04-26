@@ -12,7 +12,7 @@ public class AELoginTests : PageTest
     [OneTimeSetUp]
     public void OneTimeSetup()
     {
-        _testSettings = new ConfigurationBuilder().AddJsonFile("testSettings.json").Build();
+        _testSettings = new ConfigurationBuilder().AddJsonFile("testSettingsAE.json").Build();
     }
     
     [TestCase]
